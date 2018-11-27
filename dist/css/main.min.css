@@ -57,4 +57,21 @@ h2 {
 h2 a {
   color: red;
 }
+
+.container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70vh;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  font-size: 2rem;
+}
 /*# sourceMappingURL=main.min.css.map */

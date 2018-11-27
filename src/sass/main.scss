@@ -46,3 +46,19 @@ h2{
     color: $h2-c;
   }
 }
+
+.container{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 60%;
+   height: 70vh;
+   padding: 50px;
+   box-shadow: $cont-shd;
+
+}
+
+li{
+  font-size: 2rem;
+}
