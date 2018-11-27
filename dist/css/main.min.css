@@ -74,4 +74,8 @@ h2 a {
 li {
   font-size: 2rem;
 }
+
+li:nth-child(even) {
+  color: #9b9b9b;
+}
 /*# sourceMappingURL=main.min.css.map */
