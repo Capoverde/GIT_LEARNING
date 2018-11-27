@@ -1,0 +1,60 @@
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #14172b;
+  color: #ddd;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+h1:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+h1 a {
+  font-size: 2rem;
+  color: #ffc600;
+}
+
+h1 a:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: red;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(252, 185, 3, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(252, 185, 3, 0.75), rgba(0, 0, 0, 0));
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+h2 a {
+  color: red;
+}
+/*# sourceMappingURL=main.min.css.map */
